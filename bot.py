@@ -3,8 +3,7 @@ import yfinance as yf
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
-TOKEN = os.getenv("8305829590:AAGzx8uUA6kRUZrV1WxFIzhtXci-FMiKVlM")
-
+TOKEN = os.getenv("8305829590:AAHf4QZX7qZYOBqdCxcqgw2cqnSozZz3UCk")
 def fetch_stock(symbol):
     stock = yf.Ticker(symbol + ".NS")
     info = stock.info
