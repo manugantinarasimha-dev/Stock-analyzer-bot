@@ -2,7 +2,7 @@ import requests
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
-TOKEN = "8305829590:AAHf4QZX7qZYOBqdCxcqgw2cqnSozZz3UCk"
+TOKEN = os.environ.get("8305829590:AAHf4QZX7qZYOBqdCxcqgw2cqnSozZz3UCk")
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0"
