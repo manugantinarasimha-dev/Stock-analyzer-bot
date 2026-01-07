@@ -11,7 +11,7 @@ from telegram.ext import (
 # CONFIG
 # =========================
 
-TOKEN = os.environ.get("BOT_TOKEN")
+TOKEN = os.environ.get("8305829590:AAHf4QZX7qZYOBqdCxcqgw2cqnSozZz3UCk")
 
 if not TOKEN:
     raise ValueError("BOT_TOKEN environment variable not found")
